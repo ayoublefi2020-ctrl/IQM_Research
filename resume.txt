@@ -1,0 +1,97 @@
+Distance-3 surface-code memory on IQM Emerald
+Project summary and rotation-count result
+
+Objective
+Store one logical Z bit using nine data qubits and eight ancillas. Reuse the
+ancillas after each measurement, execute with zero SWAP gates, and measure
+how often the decoded logical bit is wrong after a given number of rounds.
+
+Circuit and decoder
+I built a no-reset circuit generator and translated its output from Stim to
+Qiskit and then into IQM instructions. I rewrote the detector parities for
+reused ancillas. I compiled the stabilizer interactions into CZ gates and
+single-qubit rotations, tracked basis changes on each wire, and cancelled
+redundant Hadamards. The selected circuit reverses the order of its four CZ
+layers every second round. I implemented an approximate likelihood decoder
+that considers one- and two-fault explanations and uses matching for
+unresolved detection events.
+
+Simulation and its limits
+The three supplied papers informed tests of repeated rounds, code distance,
+and correlated faults. The broad simulation covered 668 conditions and
+4,008,000 shots across three schedules. It included X and Z memories,
+distances 3, 5 and 7, and several noise strengths and profiles. In the
+distance-3 Z test with balanced noise p = 0.003, the selected circuit and
+decoder reduced failures by 17.4% relative to forward ordering with ordinary
+matching on fresh validation shots. The simulated 0.243% logical error per
+round substantially underestimated the first hardware result. The physical
+processor produced more detection events than the assumed noise model.
+
+Hardware investigation
+The first Emerald run gave logical failures of 28.70% after 3 rounds and
+44.36% after 5. I traced the translation through the IQM instruction list
+and verified the ideal measurement parities, signs, bit order and qubit
+mapping. The translator dropped Stim's layer boundaries, allowing operations
+on different wires to cross those boundaries. I added --preserve-ticks to
+translate them into barriers. On the same patch and calibration, the next
+run gave 10.05% after 3 rounds and 16.10% after 5 (4,000 shots each).
+The two versions had the same gate counts. This comparison suggests that
+timing contributed to the original failures. The jobs ran at different times.
+
+Matched comparison with the colleague's project
+I ran both circuits in one Emerald job on the colleague's 17-qubit patch,
+with their standard dynamical decoupling, the same calibration, no resets
+between rounds and zero SWAPs. Each circuit received 4,000 shots at each
+length. I aligned the logical Z readout row and scored the raw measurements
+using the same BP+OSD decoder and SI1000 noise prior for both circuits.
+
+                        Our circuit             Colleague's circuit
+3 rounds                236/4000 =  5.900%       325/4000 =  8.125%
+5 rounds                456/4000 = 11.400%       520/4000 = 13.000%
+Fitted error per round             2.332%                    2.901%
+
+Using each project's own decoder and prior on those same shots gave fitted
+rates of 2.339% for ours and 2.735% for the colleague's. The fits use only
+two round counts, so the measured failure counts are the strongest comparison.
+I also independently reproduced the colleague's earlier 2.654% five-length
+fit from their saved data. They contributed the placement and decoupling
+used in the matched test. The circuits differed in rotation count, layer
+order and barrier placement, so the job measured their combined effect.
+
+How low can the single-qubit rotation count go?
+The resource counted here is one single-qubit rotation instruction in the
+submitted IQM circuit. Server-inserted dynamical-decoupling pulses are
+outside that count. At 3 rounds our circuit used 94 rotations and 72 CZs.
+At 5 rounds it used 150 rotations and 120 CZs. The colleague's circuit
+used 104 and 172 rotations respectively, with the same CZ counts.
+
+For the present compiler the optimization is a shortest-path problem.
+A state records which wires carry a pending Hadamard basis change. Each
+choice of layer order has a cost equal to the number of rotations that
+must actually be emitted. If two partial schedules end in the same state,
+the cheaper one suffices because their future costs are identical. The
+search also charges for the basis needed at final data readout.
+
+Of the 24 permutations of the four fixed interaction layers, four implement
+the identical ideal entangling operation for one round. I checked this
+using Clifford tableaus and minimized over sequences of those four choices.
+The resulting minima were 94 at 3 rounds and 150 at 5. The alternating
+schedule attains both and retains graphlike distance 3. At 3 rounds the
+94 consist of 48 ancilla rotations and 46 data rotations. At 5 rounds the
+split is 80 and 70. Even relaxing the exact-round-operation constraint
+and searching all 24 layer orders gives a 3-round lower bound of 84 for
+this compiler, already above 60. That relaxed bound allows invalid schedules.
+
+These bounds assume the existing stabilizer interactions, four fixed layers,
+CZ synthesis and Hadamard cancellation rules. A proof covering every
+possible Emerald circuit would need to include other decompositions and
+syndrome-extraction designs. Whether a different valid design can reach
+60 rotations at 3 rounds remains open.
+
+Evidence in this project
+OPTIMIZATION.md and PAPER_STUDY.md
+native_memory.py, stim_to_qiskit.py and likelihood_decoder.py
+investigate_translation.py and compare_peer.py
+results/translation_check/20261121T195445883557Z/RESULTS.md
+results/project_comparison/20261121T200524815997Z/RESULTS.md
+Matched Emerald job 01a1ffb6-b7c7-7681-936e-4fa17599a7da

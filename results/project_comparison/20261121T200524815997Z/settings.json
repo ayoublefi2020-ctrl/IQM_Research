@@ -1,0 +1,123 @@
+{
+  "distance": 3,
+  "basis": "Z",
+  "shots": 4000,
+  "order": [
+    [
+      "ours",
+      3
+    ],
+    [
+      "colleague",
+      3
+    ],
+    [
+      "colleague",
+      5
+    ],
+    [
+      "ours",
+      5
+    ]
+  ],
+  "dd": "standard on",
+  "priors": "SI1000 p=0.01",
+  "primary_decoder": "bposd",
+  "backend": "emerald",
+  "submit": true,
+  "physical_layouts": {
+    "ours": [
+      30,
+      38,
+      37,
+      44,
+      21,
+      29,
+      28,
+      36,
+      35,
+      43,
+      13,
+      12,
+      20,
+      19,
+      27,
+      26,
+      18
+    ],
+    "colleague": {
+      "0": 44,
+      "10": 43,
+      "3": 35,
+      "11": 36,
+      "1": 37,
+      "4": 28,
+      "9": 38,
+      "2": 30,
+      "12": 29,
+      "5": 21,
+      "13": 27,
+      "6": 26,
+      "7": 19,
+      "14": 20,
+      "8": 12,
+      "15": 13,
+      "16": 18
+    }
+  },
+  "audits": {
+    "ours-r3": {
+      "measurements": 33,
+      "independent_parities": 25,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "prx": 94,
+        "cz": 72,
+        "barrier": 14,
+        "measure": 33
+      },
+      "swaps": 0
+    },
+    "colleague-r3": {
+      "measurements": 33,
+      "independent_parities": 25,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 42,
+      "native_operations": {
+        "prx": 104,
+        "cz": 72,
+        "measure": 33,
+        "barrier": 4
+      },
+      "swaps": 0
+    },
+    "colleague-r5": {
+      "measurements": 49,
+      "independent_parities": 41,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 70,
+      "native_operations": {
+        "prx": 172,
+        "cz": 120,
+        "measure": 49,
+        "barrier": 6
+      },
+      "swaps": 0
+    },
+    "ours-r5": {
+      "measurements": 49,
+      "independent_parities": 41,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "prx": 150,
+        "cz": 120,
+        "barrier": 24,
+        "measure": 49
+      },
+      "swaps": 0
+    }
+  },
+  "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3"
+}

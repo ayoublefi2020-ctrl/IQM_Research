@@ -1,0 +1,13 @@
+{
+  "phases": [
+    "selection",
+    "validation",
+    "screen"
+  ],
+  "output": "results\\optimization",
+  "workers": 4,
+  "repeats": 2,
+  "screen_shots": 1000,
+  "target_shots": 30000,
+  "seed": 451731
+}

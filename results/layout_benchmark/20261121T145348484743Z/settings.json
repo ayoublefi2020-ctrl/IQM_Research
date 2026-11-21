@@ -1,0 +1,25 @@
+{
+  "live_compile": false,
+  "iqm_fake": true,
+  "no_metrics": false,
+  "layout_candidates": 1024,
+  "schedule": "forward",
+  "noise_model": "legacy",
+  "submit": false,
+  "distance": 3,
+  "basis": "Z",
+  "rounds": [
+    2,
+    3,
+    5,
+    8
+  ],
+  "device": "emerald",
+  "shots": 5000,
+  "p": 0.003,
+  "profile": "uniform",
+  "selection": "results/emerald_candidate/selection.json",
+  "decoder": null,
+  "output": "results/layout_benchmark",
+  "selected_decoder": "plain"
+}

@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "project": "ours",
+      "rounds": 3,
+      "shots": 4000,
+      "raw": 681,
+      "correlated": 257,
+      "bposd": 236,
+      "local_likelihood": 249
+    },
+    {
+      "project": "colleague",
+      "rounds": 3,
+      "shots": 4000,
+      "raw": 907,
+      "correlated": 342,
+      "bposd": 325,
+      "local_likelihood": 350
+    },
+    {
+      "project": "colleague",
+      "rounds": 5,
+      "shots": 4000,
+      "raw": 1137,
+      "correlated": 528,
+      "bposd": 520,
+      "local_likelihood": 572
+    },
+    {
+      "project": "ours",
+      "rounds": 5,
+      "shots": 4000,
+      "raw": 1013,
+      "correlated": 491,
+      "bposd": 456,
+      "local_likelihood": 491
+    }
+  ],
+  "fits": {
+    "ours": {
+      "bposd": {
+        "rate": 0.02331795545716245,
+        "low": 0.021575026285927563,
+        "high": 0.02515885693635155
+      },
+      "correlated": {
+        "rate": 0.025372084718539984,
+        "low": 0.023540814042932567,
+        "high": 0.02730329286447191
+      },
+      "local_likelihood": {
+        "rate": 0.025075610991727684,
+        "low": 0.02325705444449059,
+        "high": 0.026993800233019383
+      }
+    },
+    "colleague": {
+      "bposd": {
+        "rate": 0.029009540984496672,
+        "low": 0.02702561686745023,
+        "high": 0.031097199934207547
+      },
+      "correlated": {
+        "rate": 0.029962337160465594,
+        "low": 0.027939173456161294,
+        "high": 0.03209027243787871
+      },
+      "local_likelihood": {
+        "rate": 0.031953008054269594,
+        "low": 0.029849448228137777,
+        "high": 0.03416344490150417
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.venv/  __pycache__/  *.pyc  .env  .env.*  !.env.example  .ipynb_checkpoints/  .pytest_cache/  *.pem  *.key 
+.venv/ __pycache__/ *.pyc .env .env.* tmp/
+.venv/
+.venv/ __pycache__/ *.pyc .env .env.* !.env.example .ipynb_checkpoints/ .pytest_cache/ *.pem *.key

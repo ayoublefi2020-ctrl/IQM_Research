@@ -1,0 +1,33 @@
+{
+  "live_compile": false,
+  "simulate": true,
+  "seed": 2958100,
+  "iqm_fake": false,
+  "no_metrics": false,
+  "layout_candidates": 1024,
+  "schedule": "alternating",
+  "noise_model": "native",
+  "submit": false,
+  "distance": 5,
+  "basis": "Z",
+  "rounds": [
+    2,
+    3,
+    5,
+    8,
+    12,
+    16,
+    25,
+    50
+  ],
+  "device": "emerald",
+  "shots": 100000,
+  "p": 0.003,
+  "profile": "balanced",
+  "decoder_weights": "profile",
+  "selection": "D:\\Hackathon\\PushQuantumQEC-main\\results\\optimization\\final_choice.json",
+  "decoder": "local_likelihood",
+  "output": "results/distance5_rate",
+  "selected_decoder": "local_likelihood",
+  "decoder_by_round": {}
+}

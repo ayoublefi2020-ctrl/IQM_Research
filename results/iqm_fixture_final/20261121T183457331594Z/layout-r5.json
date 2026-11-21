@@ -1,0 +1,40 @@
+{
+  "layout": [
+    12,
+    13,
+    21,
+    30,
+    19,
+    20,
+    28,
+    29,
+    37,
+    38,
+    18,
+    26,
+    27,
+    35,
+    36,
+    44,
+    43
+  ],
+  "layout_search": null,
+  "depth": 45,
+  "operations": {
+    "r": 150,
+    "cz": 120,
+    "measure": 49
+  },
+  "routing": "disabled",
+  "unique_required_pairs": 24,
+  "prior": {
+    "metric_source": "IQM synthetic error profile (CZ depolarization and mean assignment error)",
+    "counts": {
+      "rotation_from_target": 150,
+      "cz_from_target": 120,
+      "readout_from_target": 49
+    },
+    "idle_and_preparation": "assumed profile"
+  },
+  "decoder": "local_likelihood"
+}

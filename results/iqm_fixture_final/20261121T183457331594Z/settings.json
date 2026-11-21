@@ -1,0 +1,31 @@
+{
+  "live_compile": false,
+  "iqm_fake": true,
+  "no_metrics": false,
+  "layout_candidates": 1024,
+  "schedule": "alternating",
+  "noise_model": "native",
+  "submit": false,
+  "distance": 3,
+  "basis": "Z",
+  "rounds": [
+    2,
+    3,
+    5,
+    8,
+    12,
+    16,
+    25,
+    50
+  ],
+  "device": "emerald",
+  "shots": 5000,
+  "p": 0.003,
+  "profile": "balanced",
+  "decoder_weights": "target",
+  "selection": "results/optimization/final_choice.json",
+  "decoder": null,
+  "output": "results/iqm_fixture_final",
+  "selected_decoder": "local_likelihood",
+  "decoder_by_round": {}
+}

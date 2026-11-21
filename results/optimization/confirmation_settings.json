@@ -1,0 +1,11 @@
+{
+  "phases": [
+    "confirmation"
+  ],
+  "output": "results\\optimization",
+  "workers": 2,
+  "repeats": 2,
+  "screen_shots": 1000,
+  "target_shots": 50000,
+  "seed": 628914
+}

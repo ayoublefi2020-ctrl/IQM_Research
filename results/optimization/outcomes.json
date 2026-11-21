@@ -1,0 +1,131 @@
+{
+  "target": "alternating",
+  "decoder": "local_likelihood",
+  "reference_errors": 33226,
+  "finalist_errors": 27448,
+  "shots_per_candidate": 800000,
+  "relative_reduction": 0.1738999578643231,
+  "mean_difference": 0.007222499999999999,
+  "difference_ci95": [
+    0.006641150125342777,
+    0.007803849874657221
+  ],
+  "fit_all": {
+    "rate": 0.0024291319080883963,
+    "low": 0.0023994885130488213,
+    "high": 0.002459036237056388
+  },
+  "fit_from_round3": {
+    "rate": 0.002422110102589232,
+    "low": 0.0023922332357267234,
+    "high": 0.002452253332725139
+  },
+  "pearson_chi2": 20.793830597101774,
+  "fit_df": 7,
+  "fit_gof_p": 0.004087579960747833,
+  "paired": {
+    "plain": {
+      "other_only": 5736,
+      "selected_only": 2140,
+      "p": 0.0
+    },
+    "correlated": {
+      "other_only": 11911,
+      "selected_only": 9675,
+      "p": 2.3855856933556254e-52
+    },
+    "likelihood": {
+      "other_only": 3721,
+      "selected_only": 1430,
+      "p": 2.500106919608752e-231
+    },
+    "local_likelihood": {
+      "other_only": 0,
+      "selected_only": 0,
+      "p": 1.0
+    }
+  },
+  "broad_screen_on_selected_schedule": {
+    "shots": 1336000,
+    "plain": 150837,
+    "correlated": 144113,
+    "likelihood": 149344,
+    "local_likelihood": 148233
+  },
+  "target_by_round": [
+    {
+      "rounds": 2,
+      "shots_per_candidate": 100000,
+      "reference_errors": 598,
+      "finalist_errors": 557
+    },
+    {
+      "rounds": 3,
+      "shots_per_candidate": 100000,
+      "reference_errors": 857,
+      "finalist_errors": 693
+    },
+    {
+      "rounds": 5,
+      "shots_per_candidate": 100000,
+      "reference_errors": 1530,
+      "finalist_errors": 1179
+    },
+    {
+      "rounds": 8,
+      "shots_per_candidate": 100000,
+      "reference_errors": 2396,
+      "finalist_errors": 1818
+    },
+    {
+      "rounds": 12,
+      "shots_per_candidate": 100000,
+      "reference_errors": 3356,
+      "finalist_errors": 2779
+    },
+    {
+      "rounds": 16,
+      "shots_per_candidate": 100000,
+      "reference_errors": 4525,
+      "finalist_errors": 3833
+    },
+    {
+      "rounds": 25,
+      "shots_per_candidate": 100000,
+      "reference_errors": 6954,
+      "finalist_errors": 5747
+    },
+    {
+      "rounds": 50,
+      "shots_per_candidate": 100000,
+      "reference_errors": 13010,
+      "finalist_errors": 10842
+    }
+  ],
+  "mismatch_for_finalist": {
+    "idle_matched": {
+      "shots": 72000,
+      "errors": 9857
+    },
+    "idle_balanced": {
+      "shots": 72000,
+      "errors": 9877
+    },
+    "phase_matched": {
+      "shots": 72000,
+      "errors": 8321
+    },
+    "phase_balanced": {
+      "shots": 72000,
+      "errors": 8707
+    },
+    "readout_matched": {
+      "shots": 72000,
+      "errors": 7980
+    },
+    "readout_balanced": {
+      "shots": 72000,
+      "errors": 8382
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "settings": {
+    "distances": [
+      3,
+      5
+    ],
+    "bases": [
+      "Z",
+      "X"
+    ],
+    "rounds": [
+      2,
+      3,
+      5,
+      8
+    ],
+    "profiles": [
+      "uniform",
+      "readout",
+      "idle"
+    ],
+    "p": [
+      0.001,
+      0.003,
+      0.005,
+      0.01
+    ],
+    "shots": 4000,
+    "repeats": 2,
+    "seed": 20261121,
+    "output": "results/sweep"
+  },
+  "noise_multipliers": {
+    "uniform": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "readout": [
+      1,
+      1,
+      3,
+      1
+    ],
+    "idle": [
+      1,
+      1,
+      1,
+      3
+    ]
+  },
+  "phases": {
+    "selection": {
+      "shots": 1536000,
+      "failures": {
+        "plain": 65914,
+        "correlated": 60052
+      },
+      "plain_only": 18649,
+      "correlated_only": 12787,
+      "paired_p": 5.04666864147142e-241
+    },
+    "validation": {
+      "shots": 1536000,
+      "failures": {
+        "plain": 65604,
+        "correlated": 59811
+      },
+      "plain_only": 18597,
+      "correlated_only": 12804,
+      "paired_p": 1.1592134413048649e-235
+    }
+  },
+  "selected_decoder": "correlated"
+}

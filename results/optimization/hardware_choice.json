@@ -1,0 +1,85 @@
+{
+  "schedule": "alternating",
+  "selected_decoder": "correlated",
+  "noise_model": "native",
+  "profile": "balanced",
+  "p": 0.003,
+  "distance": 3,
+  "basis": "Z",
+  "rounds": [
+    2,
+    3,
+    5,
+    8,
+    12,
+    16,
+    25,
+    50
+  ],
+  "selection_scores": [
+    {
+      "schedule": "literal",
+      "decoder": "plain",
+      "errors": 22626,
+      "shots": 480000
+    },
+    {
+      "schedule": "literal",
+      "decoder": "correlated",
+      "errors": 19094,
+      "shots": 480000
+    },
+    {
+      "schedule": "literal",
+      "decoder": "likelihood",
+      "errors": 21859,
+      "shots": 480000
+    },
+    {
+      "schedule": "forward",
+      "decoder": "plain",
+      "errors": 19861,
+      "shots": 480000
+    },
+    {
+      "schedule": "forward",
+      "decoder": "correlated",
+      "errors": 19971,
+      "shots": 480000
+    },
+    {
+      "schedule": "forward",
+      "decoder": "likelihood",
+      "errors": 19032,
+      "shots": 480000
+    },
+    {
+      "schedule": "alternating",
+      "decoder": "plain",
+      "errors": 18862,
+      "shots": 480000
+    },
+    {
+      "schedule": "alternating",
+      "decoder": "correlated",
+      "errors": 17950,
+      "shots": 480000
+    },
+    {
+      "schedule": "alternating",
+      "decoder": "likelihood",
+      "errors": 18073,
+      "shots": 480000
+    }
+  ],
+  "decoder_by_round": {
+    "2": "likelihood",
+    "3": "likelihood",
+    "5": "likelihood",
+    "8": "likelihood",
+    "12": "likelihood",
+    "16": "correlated",
+    "25": "correlated",
+    "50": "correlated"
+  }
+}

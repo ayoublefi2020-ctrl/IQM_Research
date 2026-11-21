@@ -1,0 +1,29 @@
+{
+  "live_compile": false,
+  "simulate": true,
+  "seed": 421815,
+  "iqm_fake": false,
+  "no_metrics": false,
+  "layout_candidates": 1024,
+  "schedule": "alternating",
+  "noise_model": "native",
+  "submit": false,
+  "distance": 3,
+  "basis": "Z",
+  "rounds": [
+    2,
+    3,
+    5,
+    8
+  ],
+  "device": "emerald",
+  "shots": 20000,
+  "p": 0.003,
+  "profile": "balanced",
+  "decoder_weights": "profile",
+  "selection": "results/optimization/final_choice.json",
+  "decoder": null,
+  "output": "results/selected_simulation",
+  "selected_decoder": "local_likelihood",
+  "decoder_by_round": {}
+}
