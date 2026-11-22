@@ -17,9 +17,19 @@ from run_on_hardware import connect, prepare
 
 
 def our_si1000(clean, noise):
-    """Apply the colleague's SI1000 convention, including persistent pre-readout flips."""
+    """Apply the colleague builder's noise channels to our native circuit."""
     out = stim.Circuit()
     data, ancillas = get_qubit_lists(clean)
+    all_qubits = set(data) | set(ancillas)
+
+    def idle(busy, duration):
+        for q in sorted(all_qubits - set(busy)):
+            channel = noise.idle(q, duration)
+            if channel is not None:
+                out.append("PAULI_CHANNEL_1", [q], channel)
+            if duration >= noise.dur_meas and noise.p_idle_meas > 0:
+                out.append("DEPOLARIZE1", [q], noise.p_idle_meas)
+
     for op in clean:
         qs = [t.value for t in op.targets_copy()]
         if op.name == "M":
@@ -27,18 +37,35 @@ def our_si1000(clean, noise):
             for bank in (ancillas, data):
                 targets = [q for q in qs if q in bank]
                 if targets:
-                    out.append("X_ERROR", targets, noise.p_meas)
-                    out.append("M", targets)
+                    for q in targets:
+                        if noise.meas(q) > 0:
+                            out.append("X_ERROR", [q], noise.meas(q))
+                    if any(noise.meas_record(q) > 0 for q in targets):
+                        for q in targets:
+                            out.append("M", [q], noise.meas_record(q))
+                    else:
+                        out.append("M", targets)
+                    for q in targets:
+                        if noise.meas_state(q) > 0:
+                            out.append("X_ERROR", [q], noise.meas_state(q))
                     if bank is ancillas:
-                        out.append("DEPOLARIZE1", data, noise.p_idle_meas)
+                        idle(targets, noise.dur_meas)
         else:
             out.append(op)
             if op.name == "R":
-                out.append("X_ERROR", qs, noise.p_reset)
+                for q in qs:
+                    if noise.reset(q) > 0:
+                        out.append("X_ERROR", [q], noise.reset(q))
             elif op.name == "H":
-                out.append("DEPOLARIZE1", qs, noise.p1)
+                for q in qs:
+                    if noise.gate1(q) > 0:
+                        out.append("DEPOLARIZE1", [q], noise.gate1(q))
+                idle(qs, noise.dur_1q)
             elif op.name == "CZ":
-                out.append("DEPOLARIZE2", qs, noise.p2)
+                for a, b in zip(qs[::2], qs[1::2]):
+                    if noise.gate2(a, b) > 0:
+                        out.append("DEPOLARIZE2", [a, b], noise.gate2(a, b))
+                idle(qs, noise.dur_2q)
     return out
 
 

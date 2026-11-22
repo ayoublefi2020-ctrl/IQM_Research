@@ -1,0 +1,294 @@
+{
+  "calibrations": [
+    "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3"
+  ],
+  "jobs": 40,
+  "per_campaign": {
+    "credential_1": {
+      "qiskit": [
+        {
+          "rounds": 1,
+          "twirl": 46,
+          "control": 44
+        },
+        {
+          "rounds": 2,
+          "twirl": 167,
+          "control": 148
+        },
+        {
+          "rounds": 3,
+          "twirl": 246,
+          "control": 235
+        },
+        {
+          "rounds": 4,
+          "twirl": 357,
+          "control": 336
+        },
+        {
+          "rounds": 5,
+          "twirl": 444,
+          "control": 454
+        }
+      ],
+      "qrisp": [
+        {
+          "rounds": 1,
+          "twirl": 33,
+          "control": 42
+        },
+        {
+          "rounds": 2,
+          "twirl": 138,
+          "control": 176
+        },
+        {
+          "rounds": 3,
+          "twirl": 235,
+          "control": 249
+        },
+        {
+          "rounds": 4,
+          "twirl": 348,
+          "control": 335
+        },
+        {
+          "rounds": 5,
+          "twirl": 466,
+          "control": 453
+        }
+      ]
+    },
+    "credential_2": {
+      "qiskit": [
+        {
+          "rounds": 1,
+          "twirl": 50,
+          "control": 43
+        },
+        {
+          "rounds": 2,
+          "twirl": 164,
+          "control": 181
+        },
+        {
+          "rounds": 3,
+          "twirl": 251,
+          "control": 266
+        },
+        {
+          "rounds": 4,
+          "twirl": 331,
+          "control": 320
+        },
+        {
+          "rounds": 5,
+          "twirl": 410,
+          "control": 424
+        }
+      ],
+      "qrisp": [
+        {
+          "rounds": 1,
+          "twirl": 57,
+          "control": 43
+        },
+        {
+          "rounds": 2,
+          "twirl": 122,
+          "control": 162
+        },
+        {
+          "rounds": 3,
+          "twirl": 210,
+          "control": 233
+        },
+        {
+          "rounds": 4,
+          "twirl": 330,
+          "control": 360
+        },
+        {
+          "rounds": 5,
+          "twirl": 464,
+          "control": 460
+        }
+      ]
+    },
+    "credential_3": {
+      "qiskit": [
+        {
+          "rounds": 1,
+          "twirl": 38,
+          "control": 43
+        },
+        {
+          "rounds": 2,
+          "twirl": 164,
+          "control": 157
+        },
+        {
+          "rounds": 3,
+          "twirl": 268,
+          "control": 258
+        },
+        {
+          "rounds": 4,
+          "twirl": 354,
+          "control": 326
+        },
+        {
+          "rounds": 5,
+          "twirl": 463,
+          "control": 439
+        }
+      ],
+      "qrisp": [
+        {
+          "rounds": 1,
+          "twirl": 39,
+          "control": 37
+        },
+        {
+          "rounds": 2,
+          "twirl": 157,
+          "control": 148
+        },
+        {
+          "rounds": 3,
+          "twirl": 225,
+          "control": 259
+        },
+        {
+          "rounds": 4,
+          "twirl": 337,
+          "control": 351
+        },
+        {
+          "rounds": 5,
+          "twirl": 443,
+          "control": 444
+        }
+      ]
+    },
+    "credential_4": {
+      "qiskit": [
+        {
+          "rounds": 1,
+          "twirl": 38,
+          "control": 32
+        },
+        {
+          "rounds": 2,
+          "twirl": 164,
+          "control": 150
+        },
+        {
+          "rounds": 3,
+          "twirl": 238,
+          "control": 204
+        },
+        {
+          "rounds": 4,
+          "twirl": 337,
+          "control": 313
+        },
+        {
+          "rounds": 5,
+          "twirl": 447,
+          "control": 431
+        }
+      ],
+      "qrisp": [
+        {
+          "rounds": 1,
+          "twirl": 46,
+          "control": 39
+        },
+        {
+          "rounds": 2,
+          "twirl": 166,
+          "control": 167
+        },
+        {
+          "rounds": 3,
+          "twirl": 216,
+          "control": 236
+        },
+        {
+          "rounds": 4,
+          "twirl": 332,
+          "control": 361
+        },
+        {
+          "rounds": 5,
+          "twirl": 441,
+          "control": 421
+        }
+      ]
+    }
+  },
+  "pooled": {
+    "qiskit": {
+      "control": {
+        "failures": [
+          162,
+          636,
+          963,
+          1295,
+          1748
+        ],
+        "per_round_fit": {
+          "rate": 0.02116805820315805,
+          "low": 0.020563454589927414,
+          "high": 0.021784923744686734
+        }
+      },
+      "twirl": {
+        "failures": [
+          172,
+          659,
+          1003,
+          1379,
+          1764
+        ],
+        "per_round_fit": {
+          "rate": 0.021977546940074717,
+          "low": 0.02136019409498084,
+          "high": 0.0226072347791821
+        }
+      }
+    },
+    "qrisp": {
+      "control": {
+        "failures": [
+          161,
+          653,
+          977,
+          1407,
+          1778
+        ],
+        "per_round_fit": {
+          "rate": 0.021972003206773318,
+          "low": 0.021354761737246698,
+          "high": 0.02260157894699318
+        }
+      },
+      "twirl": {
+        "failures": [
+          175,
+          583,
+          886,
+          1347,
+          1814
+        ],
+        "per_round_fit": {
+          "rate": 0.021170434957723534,
+          "low": 0.020565859674956468,
+          "high": 0.021787269623521566
+        }
+      }
+    }
+  }
+}

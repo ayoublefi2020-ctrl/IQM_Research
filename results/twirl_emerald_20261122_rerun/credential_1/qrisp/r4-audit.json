@@ -1,0 +1,3018 @@
+{
+  "check": {
+    "measurements": 41,
+    "independent_parities": 33,
+    "ideal_distribution_matches": true,
+    "cz_or_measures_listed_after_a_later_layer": 0,
+    "native_operations": {
+      "barrier": 20,
+      "prx": 122,
+      "cz": 96,
+      "measure": 41
+    },
+    "swaps": 0
+  },
+  "base": [
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB36"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB13",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB27",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB31"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB13"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB38",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB45"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB27"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB20",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB22"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB31",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB45",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "key": "c_41_0_0"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "key": "c_41_0_1"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "key": "c_41_0_2"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "key": "c_41_0_3"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "key": "c_41_0_4"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "key": "c_41_0_5"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "key": "c_41_0_6"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "key": "c_41_0_7"
+      }
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB22"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB31",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB45",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB45"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB27"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB20",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB31"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB13"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB38",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB36"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB13",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB27",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "key": "c_41_0_8"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "key": "c_41_0_9"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "key": "c_41_0_10"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "key": "c_41_0_11"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "key": "c_41_0_12"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "key": "c_41_0_13"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "key": "c_41_0_14"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "key": "c_41_0_15"
+      }
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB36"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB13",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB27",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB31"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB13"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB38",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB45"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB27"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB20",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB22"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB31",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB45",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "key": "c_41_0_16"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "key": "c_41_0_17"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "key": "c_41_0_18"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "key": "c_41_0_19"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "key": "c_41_0_20"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "key": "c_41_0_21"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "key": "c_41_0_22"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "key": "c_41_0_23"
+      }
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB22"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB31",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB45",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB45"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB27"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB20",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB31"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB13"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB38",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB39",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB36"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB13",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB27",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "key": "c_41_0_24"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "key": "c_41_0_25"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "key": "c_41_0_26"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "key": "c_41_0_27"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "key": "c_41_0_28"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "key": "c_41_0_29"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "key": "c_41_0_30"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "key": "c_41_0_31"
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 1.5707963267948966
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "key": "c_41_0_32"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "key": "c_41_0_33"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "key": "c_41_0_34"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "key": "c_41_0_35"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "key": "c_41_0_36"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "key": "c_41_0_37"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "key": "c_41_0_38"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "key": "c_41_0_39"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "key": "c_41_0_40"
+      }
+    }
+  ],
+  "twirl_sha256": [
+    "d99fcf6d9f5d1155199c15c3c61518b343fa9494b334ec23082d84980469bd6f",
+    "b4814d12b80efa441a023a05292d9cac9be79300ab8fbd0fcc40cf9d3ef03535",
+    "76938f0fb14e06bbc26028943e40fedadce7b6ddcd5d30aa6444951bf171f0e2",
+    "baa2a2ce80a152f233f7a2f3262e27340f6ae875c0b65724ee90869867b93ba7",
+    "6d50f5e02f30cf3f5187279c674af2594e64c9d9b50c226c4857ea6902556c8a",
+    "0d5f079086f76b6fa6bf10cdb878dd40001b09cbc6d308985cd2360110e29db5",
+    "0cbe2e104decd34788166276b26a7e5adbcd9b8fe5e9ea6f66beb7e4571e833f",
+    "19dbf5a8005bc0e0303ffda6909968e7ac5e1a93550d916a4d47964583065b74",
+    "c208b75357dbfe61da430253fef098c99cbe5fdc6d3106cb4c5410b2f94d6c4e",
+    "d6bbb4e5c7206c090442cb922f24cccd143c3ce5adac75e711e19bac0358ffea",
+    "05fff56f5dedc3468300d8c058ab6daee18ee843f283d8f3aae2aa16fd7a51e8",
+    "cc9bc16df774299f190b9f22620e0f3dc054e10fe18b744440de17e83a717efa",
+    "2eccc8a7d82fd191116e335e5cff2907812aaf5394b51d80d08618b3c4eb3178",
+    "524799c422b8e5671b52247a1354533c8c63354309a740d40f7fe8e937c26b13",
+    "0827988d3d2b1a6f27151e8970c17a122b8a22ee1f85b8577d42bc479aa1fa5d",
+    "69828621bdb4c9c84c6cbacf3ac8428854e2bd3547c85ad1c39f960b69e0ee6b",
+    "d3bf5f43c1738901ba9f4b8ba86f461d6298d80af1376f5384e56c20c490d61a",
+    "d994d661bcdf903b9134df3a31b649a0561b442f8c7ff9e5fe3f2ab43129cc03",
+    "a3c7bdd98074aa50a9f691284ee3862c9837a19e5ae30ee1aa67eb8a3fd7cd9d",
+    "d218bb81905a9b8a533a4664101d80d2eb3cb29f7ebbd4c8232c4227f4d55b5a"
+  ],
+  "manifest": [
+    [
+      "control",
+      0
+    ],
+    [
+      "twirl",
+      0
+    ],
+    [
+      "twirl",
+      1
+    ],
+    [
+      "control",
+      1
+    ],
+    [
+      "control",
+      2
+    ],
+    [
+      "twirl",
+      2
+    ],
+    [
+      "twirl",
+      3
+    ],
+    [
+      "control",
+      3
+    ],
+    [
+      "control",
+      4
+    ],
+    [
+      "twirl",
+      4
+    ],
+    [
+      "twirl",
+      5
+    ],
+    [
+      "control",
+      5
+    ],
+    [
+      "control",
+      6
+    ],
+    [
+      "twirl",
+      6
+    ],
+    [
+      "twirl",
+      7
+    ],
+    [
+      "control",
+      7
+    ],
+    [
+      "control",
+      8
+    ],
+    [
+      "twirl",
+      8
+    ],
+    [
+      "twirl",
+      9
+    ],
+    [
+      "control",
+      9
+    ],
+    [
+      "control",
+      10
+    ],
+    [
+      "twirl",
+      10
+    ],
+    [
+      "twirl",
+      11
+    ],
+    [
+      "control",
+      11
+    ],
+    [
+      "control",
+      12
+    ],
+    [
+      "twirl",
+      12
+    ],
+    [
+      "twirl",
+      13
+    ],
+    [
+      "control",
+      13
+    ],
+    [
+      "control",
+      14
+    ],
+    [
+      "twirl",
+      14
+    ],
+    [
+      "twirl",
+      15
+    ],
+    [
+      "control",
+      15
+    ],
+    [
+      "control",
+      16
+    ],
+    [
+      "twirl",
+      16
+    ],
+    [
+      "twirl",
+      17
+    ],
+    [
+      "control",
+      17
+    ],
+    [
+      "control",
+      18
+    ],
+    [
+      "twirl",
+      18
+    ],
+    [
+      "twirl",
+      19
+    ],
+    [
+      "control",
+      19
+    ]
+  ]
+}

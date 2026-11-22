@@ -24,8 +24,9 @@ DEFAULT_SELECTION = Path(__file__).resolve().parent / "results" / "optimization"
 
 def connect(token=None, device="emerald", use_metrics=True):
     from iqm.qiskit_iqm import IQMProvider
-    provider = IQMProvider(SERVER_URL, quantum_computer=device,
-                           token=token or os.environ.get("IQM_TOKEN") or getpass.getpass("IQM token: "))
+    credential = token or os.environ.get("IQM_TOKEN")
+    auth = {} if os.environ.get("IQM_TOKEN") and token is None else {"token": credential or getpass.getpass("IQM token: ")}
+    provider = IQMProvider(SERVER_URL, quantum_computer=device, **auth)
     if use_metrics:
         try:
             return provider.get_backend(use_metrics=True)
