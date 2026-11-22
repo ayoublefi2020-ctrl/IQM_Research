@@ -116,35 +116,42 @@ def run(args):
     else:
         from iqm.qiskit_iqm.fake_backends import IQMFakeAphrodite
         backend = IQMFakeAphrodite()
-    layout = json.loads(REFERENCE.read_text())["physical_layouts"]["ours"]
+    if args.distance == 3:
+        layout = json.loads(REFERENCE.read_text())["physical_layouts"]["ours"]
+    else:
+        from build_emerald_qubit_rotated import calibrated_layout
+        from stim_to_qiskit import stim_to_qiskit
+        reference = make_native_memory(args.distance,max(args.rounds),args.basis,"alternating")
+        layout, _ = calibrated_layout(stim_to_qiskit(reference)[0],backend)
     names = {i:backend.index_to_qubit_name(i) for i in range(backend.num_qubits)}
     wire_names = [names[i] for i in layout]
     folder = args.output/args.pipeline
     folder.mkdir(exist_ok=True,parents=True)
-    settings = dict(pipeline=args.pipeline, live=args.submit, distance=3, basis="Z", rounds=list(range(1,6)),
-                    shots_per_arm=SHOTS*INSTANCES, variants=INSTANCES, seed=SEED, dd="standard", wire_names=wire_names,
+    settings = dict(pipeline=args.pipeline, live=args.submit, distance=args.distance, basis=args.basis, rounds=args.rounds,
+                    shots_per_arm=args.shots*args.variants, variants=args.variants, seed=SEED, dd="standard", wire_names=wire_names,
                     decoder="BP+OSD", prior="SI1000 p=0.01", calibration=str(backend.architecture.calibration_set_id))
     settings_file = folder/"settings.json"
     if settings_file.exists() and json.loads(settings_file.read_text()) != settings:
         raise ValueError("Use a new output directory for a different calibration or setup")
     save(settings_file,settings)
     summary = []
-    for r in range(1,6):
+    for r in args.rounds:
         label = f"r{r}"
-        clean = make_native_memory(3,r,"Z","alternating")
+        clean = make_native_memory(args.distance,r,args.basis,"alternating")
         model = our_si1000(clean,NoiseModel.si1000(.01))
         model.to_file(str(folder/(label+".stim")))
         if args.pipeline == "qrisp":
             base = compile_qrisp(clean,backend,wire_names)
         else:
-            _,qc,_ = prepare(3,r,"Z",backend,noise_family="native",schedule="alternating",fixed_layout=layout,preserve_ticks=True)
+            _,qc,_ = prepare(args.distance,r,args.basis,backend,noise_family="native",schedule="alternating",fixed_layout=layout,preserve_ticks=True)
             base = list(serialize_instructions(qc,names))
         base_check = audit(clean,base,wire_names)
-        if base_check["cz_or_measures_listed_after_a_later_layer"] or base_check["native_operations"]["cz"] != 24*r:
+        expected_cz = sum(len(op.targets_copy())//2 for op in clean if op.name=="CZ")
+        if base_check["cz_or_measures_listed_after_a_later_layer"] or base_check["native_operations"]["cz"] != expected_cz:
             raise ValueError("Original layer sequence changed")
         plan = []
         transformed = []
-        for i in range(INSTANCES):
+        for i in range(args.variants):
             twirl = pmpt(base,SEED+100*r+i)
             check = audit(clean,twirl,wire_names)
             if check != base_check:
@@ -156,7 +163,7 @@ def run(args):
                 pair.reverse()
             for arm,ops in pair:
                 plan.append((arm,i,Circuit(name=f"{args.pipeline}-{label}-{arm}-{i}",instructions=tuple(ops))))
-        if len(set(transformed)) != INSTANCES:
+        if len(set(transformed)) != args.variants:
             raise ValueError("Duplicate variants")
         save(folder/(label+"-audit.json"),dict(check=base_check,base=payload(base),twirl_sha256=transformed,
                                                manifest=[(arm,i) for arm,i,_ in plan]))
@@ -169,7 +176,7 @@ def run(args):
             if job_path.exists():
                 job = backend.client.get_job(UUID(json.loads(job_path.read_text())["id"]))
             else:
-                job = backend.client.submit_circuits([c for _,_,c in plan],shots=SHOTS,
+                job = backend.client.submit_circuits([c for _,_,c in plan],shots=args.shots,
                     calibration_set_id=backend.architecture.calibration_set_id,
                     options=CircuitCompilationOptions(dd_mode=DDMode.ENABLED))
                 save(job_path,dict(id=str(job.job_id)))
@@ -183,7 +190,7 @@ def run(args):
                 keys = sorted(result,key=lambda key:MeasurementKey.from_string(key).clbit_idx)
                 if [MeasurementKey.from_string(k).clbit_idx for k in keys] != list(range(clean.num_measurements)):
                     raise ValueError("Measurement keys differ")
-                records.append(np.column_stack([np.asarray(result[k]).reshape(SHOTS) for k in keys]))
+                records.append(np.column_stack([np.asarray(result[k]).reshape(args.shots) for k in keys]))
             np.savez_compressed(raw_path,records=np.asarray(records,dtype=bool))
         records = np.load(raw_path)["records"]
         conv = model.compile_m2d_converter()
@@ -196,7 +203,7 @@ def run(args):
         summary.append(row)
         print(row,flush=True)
     if summary:
-        fits={arm:fit_rate(settings["rounds"],[v[arm] for v in summary],[SHOTS*INSTANCES]*5) for arm in ("control","twirl")}
+        fits={arm:fit_rate(settings["rounds"],[v[arm] for v in summary],[args.shots*args.variants]*len(args.rounds)) for arm in ("control","twirl")}
         save(folder/"summary.json",dict(rows=summary,fits=fits))
 
 
@@ -206,7 +213,16 @@ if __name__ == "__main__":
     parser.add_argument("--output",type=Path,required=True)
     parser.add_argument("--peer",type=Path,required=True)
     parser.add_argument("--submit",action="store_true")
+    parser.add_argument("--rounds",type=int,nargs="+",default=list(range(1,6)))
+    parser.add_argument("--shots",type=int,default=SHOTS,help="Shots per circuit instance")
+    parser.add_argument("--variants",type=int,default=INSTANCES)
+    parser.add_argument("--distance",type=int,choices=(3,5),default=3)
+    parser.add_argument("--basis",choices=("X","Z"),default="Z")
     args=parser.parse_args()
+    if len(set(args.rounds)) < 2 or sorted(set(args.rounds)) != sorted(args.rounds) or args.rounds[0] < 1:
+        parser.error("Use at least two distinct positive round counts in increasing order")
+    if args.shots < 1 or args.variants < 1:
+        parser.error("Shots and variants must be positive")
     sys.path.append(str(args.peer.resolve()))
     logging.disable(logging.WARNING)
     run(args)

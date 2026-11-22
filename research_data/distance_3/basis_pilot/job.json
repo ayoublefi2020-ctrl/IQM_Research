@@ -1,0 +1,107 @@
+{
+  "job": "01a201e9-e787-76f5-b924-462586132ec7",
+  "calibration": "7d7ebe74-3674-4b32-baa2-fa0117ecbef9",
+  "audits": {
+    "X": {
+      "layout": [
+        0,
+        1,
+        5,
+        12,
+        3,
+        4,
+        10,
+        11,
+        19,
+        20,
+        2,
+        8,
+        9,
+        17,
+        18,
+        26,
+        25
+      ],
+      "layout_search": null,
+      "depth": 30,
+      "operations": {
+        "r": 92,
+        "cz": 72,
+        "measure": 33,
+        "barrier": 14
+      },
+      "routing": "disabled",
+      "unique_required_pairs": 24,
+      "ideal_measurement_distribution_matches": true,
+      "measurement_keys": 33,
+      "independent_parities": 25,
+      "physical_wires": 17,
+      "swaps": 0
+    },
+    "Z": {
+      "layout": [
+        0,
+        1,
+        5,
+        12,
+        3,
+        4,
+        10,
+        11,
+        19,
+        20,
+        2,
+        8,
+        9,
+        17,
+        18,
+        26,
+        25
+      ],
+      "layout_search": null,
+      "depth": 30,
+      "operations": {
+        "r": 94,
+        "cz": 72,
+        "measure": 33,
+        "barrier": 14
+      },
+      "routing": "disabled",
+      "unique_required_pairs": 24,
+      "ideal_measurement_distribution_matches": true,
+      "measurement_keys": 33,
+      "independent_parities": 25,
+      "physical_wires": 17,
+      "swaps": 0
+    }
+  },
+  "bases": [
+    "X",
+    "Z"
+  ],
+  "shots": 1000,
+  "rounds": 3,
+  "decoder": "correlated",
+  "p": 0.003,
+  "dd": "standard",
+  "twirling": false,
+  "wire_names": [
+    "QB1",
+    "QB2",
+    "QB6",
+    "QB13",
+    "QB4",
+    "QB5",
+    "QB11",
+    "QB12",
+    "QB20",
+    "QB21",
+    "QB3",
+    "QB9",
+    "QB10",
+    "QB18",
+    "QB19",
+    "QB27",
+    "QB26"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pipeline": "qrisp",
+  "live": true,
+  "distance": 3,
+  "basis": "Z",
+  "rounds": [
+    3,
+    5
+  ],
+  "shots_per_arm": 10000,
+  "variants": 20,
+  "seed": 22112026,
+  "dd": "standard",
+  "wire_names": [
+    "QB31",
+    "QB39",
+    "QB38",
+    "QB45",
+    "QB22",
+    "QB30",
+    "QB29",
+    "QB37",
+    "QB36",
+    "QB44",
+    "QB14",
+    "QB13",
+    "QB21",
+    "QB20",
+    "QB28",
+    "QB27",
+    "QB19"
+  ],
+  "decoder": "BP+OSD",
+  "prior": "SI1000 p=0.01",
+  "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3"
+}

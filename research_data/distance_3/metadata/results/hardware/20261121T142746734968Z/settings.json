@@ -1,0 +1,20 @@
+{
+  "live_compile": false,
+  "submit": false,
+  "distance": 3,
+  "basis": "Z",
+  "rounds": [
+    2,
+    3,
+    5,
+    8
+  ],
+  "device": "emerald",
+  "shots": 5000,
+  "p": 0.003,
+  "profile": "uniform",
+  "selection": "results/sweep/selection.json",
+  "decoder": "correlated",
+  "output": "results/hardware",
+  "selected_decoder": "correlated"
+}

@@ -1,0 +1,40 @@
+{
+  "layout": [
+    11,
+    10,
+    18,
+    25,
+    20,
+    19,
+    27,
+    26,
+    34,
+    33,
+    21,
+    29,
+    28,
+    36,
+    35,
+    43,
+    44
+  ],
+  "layout_search": null,
+  "depth": 72,
+  "operations": {
+    "r": 234,
+    "cz": 192,
+    "measure": 73
+  },
+  "routing": "disabled",
+  "unique_required_pairs": 24,
+  "prior": {
+    "metric_source": "backend InstructionProperties",
+    "counts": {
+      "rotation_from_target": 234,
+      "cz_from_target": 192,
+      "readout_from_target": 73
+    },
+    "idle_and_preparation": "assumed profile"
+  },
+  "decoder": "local_likelihood"
+}

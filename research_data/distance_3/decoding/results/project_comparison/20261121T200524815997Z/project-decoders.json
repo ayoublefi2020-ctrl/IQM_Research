@@ -1,0 +1,22 @@
+{
+  "ours-r3": {
+    "errors": 232,
+    "shots": 4000,
+    "probability": 0.058
+  },
+  "colleague-r3": {
+    "errors": 310,
+    "shots": 4000,
+    "probability": 0.0775
+  },
+  "colleague-r5": {
+    "errors": 491,
+    "shots": 4000,
+    "probability": 0.12275
+  },
+  "ours-r5": {
+    "errors": 462,
+    "shots": 4000,
+    "probability": 0.1155
+  }
+}

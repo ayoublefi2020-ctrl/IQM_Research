@@ -1,0 +1,61 @@
+{
+  "metric_source": "backend InstructionProperties",
+  "candidates_evaluated": 76,
+  "candidate_limit": 1024,
+  "score_units": "negative log fidelity proxy",
+  "missing_policy": "worst reported value within each operation; omit absent families",
+  "first_exact": {
+    "layout": [
+      0,
+      1,
+      5,
+      12,
+      3,
+      4,
+      10,
+      11,
+      19,
+      20,
+      2,
+      8,
+      9,
+      17,
+      18,
+      26,
+      25
+    ],
+    "score": 12.086782923323213,
+    "cz_score": 3.7151037505676703,
+    "readout_score": 8.371679172755542,
+    "missing_cz_locations": 0,
+    "missing_readout_locations": 0
+  },
+  "selected": {
+    "layout": [
+      11,
+      10,
+      18,
+      25,
+      20,
+      19,
+      27,
+      26,
+      34,
+      33,
+      21,
+      29,
+      28,
+      36,
+      35,
+      43,
+      44
+    ],
+    "score": 8.175054600025678,
+    "cz_score": 3.9548716413927543,
+    "readout_score": 4.2201829586329245,
+    "missing_cz_locations": 0,
+    "missing_readout_locations": 0
+  },
+  "reference_rounds": 50,
+  "calibration_set": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3"
+}

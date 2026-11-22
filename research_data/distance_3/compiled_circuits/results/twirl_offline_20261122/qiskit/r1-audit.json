@@ -1,0 +1,1018 @@
+{
+  "check": {
+    "measurements": 17,
+    "independent_parities": 9,
+    "ideal_distribution_matches": true,
+    "cz_or_measures_listed_after_a_later_layer": 0,
+    "native_operations": {
+      "prx": 38,
+      "cz": 24,
+      "barrier": 4,
+      "measure": 17
+    },
+    "swaps": 0
+  },
+  "base": [
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB13",
+        "QB14"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB20",
+        "QB21"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB27",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB37"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB38",
+        "QB39"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB13",
+        "QB21"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB14",
+        "QB22"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB29",
+        "QB37"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB31",
+        "QB39"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB28",
+        "QB36"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB30",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB20",
+        "QB28"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB22",
+        "QB30"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB27"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB36",
+        "QB44"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB45"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 10.995574287564276
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB19",
+        "QB20"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 4.71238898038469
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB21",
+        "QB22"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB28",
+        "QB29"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB30",
+        "QB31"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 10.995574287564276
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB37",
+        "QB38"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "cz",
+      "locus": [
+        "QB44",
+        "QB45"
+      ],
+      "args": {}
+    },
+    {
+      "name": "barrier",
+      "locus": [
+        "QB31",
+        "QB39",
+        "QB38",
+        "QB45",
+        "QB22",
+        "QB30",
+        "QB29",
+        "QB37",
+        "QB36",
+        "QB44",
+        "QB14",
+        "QB13",
+        "QB21",
+        "QB20",
+        "QB28",
+        "QB27",
+        "QB19"
+      ],
+      "args": {}
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 14.137166941154069
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 14.137166941154069
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "prx",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "angle": 1.5707963267948966,
+        "phase": 7.853981633974483
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB39"
+      ],
+      "args": {
+        "key": "c_17_0_0"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB30"
+      ],
+      "args": {
+        "key": "c_17_0_1"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB37"
+      ],
+      "args": {
+        "key": "c_17_0_2"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB44"
+      ],
+      "args": {
+        "key": "c_17_0_3"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB14"
+      ],
+      "args": {
+        "key": "c_17_0_4"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB21"
+      ],
+      "args": {
+        "key": "c_17_0_5"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB28"
+      ],
+      "args": {
+        "key": "c_17_0_6"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB19"
+      ],
+      "args": {
+        "key": "c_17_0_7"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB31"
+      ],
+      "args": {
+        "key": "c_17_0_8"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB38"
+      ],
+      "args": {
+        "key": "c_17_0_9"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB45"
+      ],
+      "args": {
+        "key": "c_17_0_10"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB22"
+      ],
+      "args": {
+        "key": "c_17_0_11"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB29"
+      ],
+      "args": {
+        "key": "c_17_0_12"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB36"
+      ],
+      "args": {
+        "key": "c_17_0_13"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB13"
+      ],
+      "args": {
+        "key": "c_17_0_14"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB20"
+      ],
+      "args": {
+        "key": "c_17_0_15"
+      }
+    },
+    {
+      "name": "measure",
+      "locus": [
+        "QB27"
+      ],
+      "args": {
+        "key": "c_17_0_16"
+      }
+    }
+  ],
+  "twirl_sha256": [
+    "81ae45262cac3a1b4e4ff4b7b86574a15434a20512ac42ccaf816103d9ca7735",
+    "e911ec02da9556bedda5642fa726b8d28362d9fb5264c558b5208bd680c78aac",
+    "bf8059b4bc450204e4b0c5af625b28ecedc4db3efb13f6671e9a2ed5a834fdcf",
+    "13a758913f4b44e01f9ef977a51ad5f66a2659f804eff2b652637ae5b7570f43",
+    "3efdff69b8d39959f3d965857d306b2c0591d658211be91e88a3b329c6c6b52b",
+    "bd0e370dcb1fe55ae52803ecc5d0a39c74112057c7adc5906684052fc3788c3a",
+    "4630fe340b11640ce20e0a6e4dd497ce377530f550034ca063a78c081fac4823",
+    "bc5cb7f2de959adbabb5139f0967c0146dc9c98aa9536a7ee473595f5b93ded2",
+    "e4109028b97dd6aefa55435d212d3fda283aaee35fb4059bf4ceaac61f0e0d6a",
+    "4d9d0ff0d5d8b1d7f15ecdbaeda65d4237abb866f9f8611728686cdf4c1b8d66",
+    "7650820c681edb9028918834d1e505ea99b5d1f0765c3dd0c1857d29ba211b94",
+    "c15ed36d7f5b4e3d54b8ccef257d9fbe6c1a10cc00c0eaf8db0703e0321b7c4c",
+    "e612f11d11f958d904f6680fe329058e4ff31f412c6b5f3a164552759bf06384",
+    "332eec09b38c40d983d8f705d091d4d593f7d427cc4a0dec8fec9509f797f665",
+    "b755a488228c69ab03eccfceffd6520a0aaf05781595b78f01ece5f8b65f6970",
+    "7b1871e79d899d86b623edd65bb5063366a50bc49d77a8068ed5f330fe9ad7a2",
+    "dfa961aae3a6e7b1e0d13bc23a3ad5b24ca23722a4f54c7f10895b9be47fc05a",
+    "38e697127ac7a1b4a01415800aea9201069f34f0b2da684692ff874ba8843172",
+    "92bd0e3d3ec07bc0c2238fc279bc052273da041dc732f57902b2c73da41b6357",
+    "dd5f434b8745aa3f0a6c7e01f926d5299ac1ae72f2e0b7a3cfa0a1d88d9e5c76"
+  ],
+  "manifest": [
+    [
+      "twirl",
+      0
+    ],
+    [
+      "control",
+      0
+    ],
+    [
+      "control",
+      1
+    ],
+    [
+      "twirl",
+      1
+    ],
+    [
+      "twirl",
+      2
+    ],
+    [
+      "control",
+      2
+    ],
+    [
+      "control",
+      3
+    ],
+    [
+      "twirl",
+      3
+    ],
+    [
+      "twirl",
+      4
+    ],
+    [
+      "control",
+      4
+    ],
+    [
+      "control",
+      5
+    ],
+    [
+      "twirl",
+      5
+    ],
+    [
+      "twirl",
+      6
+    ],
+    [
+      "control",
+      6
+    ],
+    [
+      "control",
+      7
+    ],
+    [
+      "twirl",
+      7
+    ],
+    [
+      "twirl",
+      8
+    ],
+    [
+      "control",
+      8
+    ],
+    [
+      "control",
+      9
+    ],
+    [
+      "twirl",
+      9
+    ],
+    [
+      "twirl",
+      10
+    ],
+    [
+      "control",
+      10
+    ],
+    [
+      "control",
+      11
+    ],
+    [
+      "twirl",
+      11
+    ],
+    [
+      "twirl",
+      12
+    ],
+    [
+      "control",
+      12
+    ],
+    [
+      "control",
+      13
+    ],
+    [
+      "twirl",
+      13
+    ],
+    [
+      "twirl",
+      14
+    ],
+    [
+      "control",
+      14
+    ],
+    [
+      "control",
+      15
+    ],
+    [
+      "twirl",
+      15
+    ],
+    [
+      "twirl",
+      16
+    ],
+    [
+      "control",
+      16
+    ],
+    [
+      "control",
+      17
+    ],
+    [
+      "twirl",
+      17
+    ],
+    [
+      "twirl",
+      18
+    ],
+    [
+      "control",
+      18
+    ],
+    [
+      "control",
+      19
+    ],
+    [
+      "twirl",
+      19
+    ]
+  ]
+}

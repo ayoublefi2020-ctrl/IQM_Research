@@ -1,0 +1,86 @@
+[
+  {
+    "distance": 3,
+    "basis": "X",
+    "rounds": 3,
+    "distance_graphlike": 3,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 3,
+    "basis": "X",
+    "rounds": 5,
+    "distance_graphlike": 3,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 3,
+    "basis": "X",
+    "rounds": 20,
+    "distance_graphlike": 3,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 3,
+    "basis": "Z",
+    "rounds": 3,
+    "distance_graphlike": 3,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 3,
+    "basis": "Z",
+    "rounds": 5,
+    "distance_graphlike": 3,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 3,
+    "basis": "Z",
+    "rounds": 20,
+    "distance_graphlike": 3,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 5,
+    "basis": "X",
+    "rounds": 3,
+    "distance_graphlike": 5,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 5,
+    "basis": "X",
+    "rounds": 5,
+    "distance_graphlike": 5,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 5,
+    "basis": "X",
+    "rounds": 20,
+    "distance_graphlike": 5,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 5,
+    "basis": "Z",
+    "rounds": 3,
+    "distance_graphlike": 5,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 5,
+    "basis": "Z",
+    "rounds": 5,
+    "distance_graphlike": 5,
+    "shots_noiseless": 64
+  },
+  {
+    "distance": 5,
+    "basis": "Z",
+    "rounds": 20,
+    "distance_graphlike": 5,
+    "shots_noiseless": 64
+  }
+]

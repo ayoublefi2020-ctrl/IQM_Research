@@ -1,0 +1,158 @@
+{
+  "job_count": 8,
+  "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+  "hardware": {
+    "pilot_2000": {
+      "qiskit": [
+        {
+          "rounds": 3,
+          "twirl": 123,
+          "control": 116
+        },
+        {
+          "rounds": 5,
+          "twirl": 237,
+          "control": 235
+        }
+      ],
+      "qrisp": [
+        {
+          "rounds": 3,
+          "twirl": 122,
+          "control": 153
+        },
+        {
+          "rounds": 5,
+          "twirl": 212,
+          "control": 204
+        }
+      ]
+    },
+    "confirm_10000": {
+      "qiskit": [
+        {
+          "rounds": 3,
+          "twirl": 571,
+          "control": 601
+        },
+        {
+          "rounds": 5,
+          "twirl": 1032,
+          "control": 1007
+        }
+      ],
+      "qrisp": [
+        {
+          "rounds": 3,
+          "twirl": 535,
+          "control": 576
+        },
+        {
+          "rounds": 5,
+          "twirl": 1034,
+          "control": 999
+        }
+      ]
+    }
+  },
+  "pilot_decoder_sweep": {
+    "qiskit_r3_p005": {
+      "control": 113,
+      "twirl": 121
+    },
+    "qiskit_r3_p010": {
+      "control": 116,
+      "twirl": 123
+    },
+    "qiskit_r3_p020": {
+      "control": 127,
+      "twirl": 120
+    },
+    "qiskit_r3_characterized": {
+      "control": 117,
+      "twirl": 118
+    },
+    "qiskit_r5_p005": {
+      "control": 240,
+      "twirl": 233
+    },
+    "qiskit_r5_p010": {
+      "control": 235,
+      "twirl": 237
+    },
+    "qiskit_r5_p020": {
+      "control": 251,
+      "twirl": 229
+    },
+    "qiskit_r5_characterized": {
+      "control": 231,
+      "twirl": 217
+    },
+    "qrisp_r3_p005": {
+      "control": 155,
+      "twirl": 119
+    },
+    "qrisp_r3_p010": {
+      "control": 153,
+      "twirl": 122
+    },
+    "qrisp_r3_p020": {
+      "control": 162,
+      "twirl": 124
+    },
+    "qrisp_r3_characterized": {
+      "control": 138,
+      "twirl": 103
+    },
+    "qrisp_r5_p005": {
+      "control": 205,
+      "twirl": 208
+    },
+    "qrisp_r5_p010": {
+      "control": 204,
+      "twirl": 212
+    },
+    "qrisp_r5_p020": {
+      "control": 203,
+      "twirl": 227
+    },
+    "qrisp_r5_characterized": {
+      "control": 196,
+      "twirl": 208
+    }
+  },
+  "confirmation_decoder_sweep": {
+    "qiskit_r3_p010": {
+      "control": 601,
+      "twirl": 571
+    },
+    "qiskit_r3_characterized": {
+      "control": 569,
+      "twirl": 554
+    },
+    "qiskit_r5_p010": {
+      "control": 1007,
+      "twirl": 1032
+    },
+    "qiskit_r5_characterized": {
+      "control": 988,
+      "twirl": 1013
+    },
+    "qrisp_r3_p010": {
+      "control": 576,
+      "twirl": 535
+    },
+    "qrisp_r3_characterized": {
+      "control": 561,
+      "twirl": 508
+    },
+    "qrisp_r5_p010": {
+      "control": 999,
+      "twirl": 1034
+    },
+    "qrisp_r5_characterized": {
+      "control": 993,
+      "twirl": 995
+    }
+  }
+}

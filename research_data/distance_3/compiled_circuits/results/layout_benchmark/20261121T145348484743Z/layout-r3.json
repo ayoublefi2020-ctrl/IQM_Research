@@ -1,0 +1,30 @@
+{
+  "layout": [
+    12,
+    13,
+    21,
+    30,
+    19,
+    20,
+    28,
+    29,
+    37,
+    38,
+    18,
+    26,
+    27,
+    35,
+    36,
+    44,
+    43
+  ],
+  "layout_search": null,
+  "depth": 25,
+  "operations": {
+    "r": 106,
+    "cz": 72,
+    "measure": 33
+  },
+  "routing": "disabled",
+  "unique_required_pairs": 24
+}

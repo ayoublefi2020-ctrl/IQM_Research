@@ -1,0 +1,61 @@
+{
+  "metric_source": "IQM synthetic error profile (CZ depolarization and mean assignment error)",
+  "candidates_evaluated": 92,
+  "candidate_limit": 1024,
+  "score_units": "negative log fidelity proxy",
+  "missing_policy": "worst reported value within each operation; omit absent families",
+  "first_exact": {
+    "layout": [
+      0,
+      1,
+      5,
+      12,
+      3,
+      4,
+      10,
+      11,
+      19,
+      20,
+      2,
+      8,
+      9,
+      17,
+      18,
+      26,
+      25
+    ],
+    "score": 5.86320325507554,
+    "cz_score": 2.066985545434626,
+    "readout_score": 3.796217709640914,
+    "missing_cz_locations": 0,
+    "missing_readout_locations": 0
+  },
+  "selected": {
+    "layout": [
+      12,
+      13,
+      21,
+      30,
+      19,
+      20,
+      28,
+      29,
+      37,
+      38,
+      18,
+      26,
+      27,
+      35,
+      36,
+      44,
+      43
+    ],
+    "score": 5.764166509358844,
+    "cz_score": 2.017451157044231,
+    "readout_score": 3.746715352314614,
+    "missing_cz_locations": 0,
+    "missing_readout_locations": 0
+  },
+  "reference_rounds": 8,
+  "calibration_set": "00000000-0000-0000-0000-000000000000"
+}

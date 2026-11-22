@@ -1,0 +1,186 @@
+[
+  {
+    "basis": "Z",
+    "rounds": 3,
+    "pipeline": "qiskit",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 97,
+      "independent_parities": 73,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "prx": 290,
+        "cz": 240,
+        "barrier": 14,
+        "measure": 97
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  },
+  {
+    "basis": "Z",
+    "rounds": 3,
+    "pipeline": "qrisp",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 97,
+      "independent_parities": 73,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "barrier": 15,
+        "prx": 290,
+        "cz": 240,
+        "measure": 97
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  },
+  {
+    "basis": "Z",
+    "rounds": 20,
+    "pipeline": "qiskit",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 505,
+      "independent_parities": 481,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "prx": 1786,
+        "cz": 1600,
+        "barrier": 99,
+        "measure": 505
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  },
+  {
+    "basis": "Z",
+    "rounds": 20,
+    "pipeline": "qrisp",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 505,
+      "independent_parities": 481,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "barrier": 100,
+        "prx": 1786,
+        "cz": 1600,
+        "measure": 505
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  },
+  {
+    "basis": "X",
+    "rounds": 3,
+    "pipeline": "qiskit",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 97,
+      "independent_parities": 73,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "prx": 288,
+        "cz": 240,
+        "barrier": 14,
+        "measure": 97
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  },
+  {
+    "basis": "X",
+    "rounds": 3,
+    "pipeline": "qrisp",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 97,
+      "independent_parities": 73,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "barrier": 15,
+        "prx": 288,
+        "cz": 240,
+        "measure": 97
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  },
+  {
+    "basis": "X",
+    "rounds": 20,
+    "pipeline": "qiskit",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 505,
+      "independent_parities": 481,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "prx": 1784,
+        "cz": 1600,
+        "barrier": 99,
+        "measure": 505
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  },
+  {
+    "basis": "X",
+    "rounds": 20,
+    "pipeline": "qrisp",
+    "source": "COMPILATION_ONLY",
+    "audit": {
+      "measurements": 505,
+      "independent_parities": 481,
+      "ideal_distribution_matches": true,
+      "cz_or_measures_listed_after_a_later_layer": 0,
+      "native_operations": {
+        "barrier": 100,
+        "prx": 1784,
+        "cz": 1600,
+        "measure": 505
+      },
+      "swaps": 0
+    },
+    "twirl_seeds": [
+      22112026,
+      22112027
+    ]
+  }
+]

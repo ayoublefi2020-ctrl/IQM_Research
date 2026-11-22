@@ -1,0 +1,34 @@
+{
+  "distance": 3,
+  "rounds": [
+    3,
+    5
+  ],
+  "shots_per_arm": 10000,
+  "blocks": 20,
+  "dd": "standard",
+  "wire_names": [
+    "QB31",
+    "QB39",
+    "QB38",
+    "QB45",
+    "QB22",
+    "QB30",
+    "QB29",
+    "QB37",
+    "QB36",
+    "QB44",
+    "QB14",
+    "QB13",
+    "QB21",
+    "QB20",
+    "QB28",
+    "QB27",
+    "QB19"
+  ],
+  "live": false,
+  "calibration": "00000000-0000-0000-0000-000000000000",
+  "baseline": "Professor Stim stabilizer order, adapted to no-reset and native CZ/H",
+  "decoder": "BP+OSD",
+  "prior": "SI1000 p=0.01"
+}

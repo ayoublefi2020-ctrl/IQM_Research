@@ -1,0 +1,11 @@
+{
+  "failures": 733,
+  "shots": 20000,
+  "probability": 0.03665,
+  "interval95": [
+    0.03413358325183485,
+    0.0393443765613573
+  ],
+  "decoder": "local_likelihood",
+  "rounds": 16
+}

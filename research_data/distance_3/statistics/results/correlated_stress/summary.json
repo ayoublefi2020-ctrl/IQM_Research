@@ -1,0 +1,85 @@
+{
+  "args": {
+    "distance": [
+      3,
+      5
+    ],
+    "basis": [
+      "X",
+      "Z"
+    ],
+    "p": [
+      0.001,
+      0.005
+    ],
+    "rounds": [
+      3,
+      12,
+      25
+    ],
+    "q": [
+      0.002,
+      0.008
+    ],
+    "q_grid": [
+      0.001,
+      0.003,
+      0.006,
+      0.01
+    ],
+    "calibration": 10000,
+    "shots": 16000,
+    "seed": 31415926,
+    "output": "results/correlated_stress"
+  },
+  "totals": {
+    "all": {
+      "calibration_shots": 1200000,
+      "shots": 1920000,
+      "nominal_errors": 88099,
+      "independent_errors": 86968,
+      "selected_errors": 86375,
+      "independent_only": 2776,
+      "selected_only": 2183,
+      "paired_test_p": 3.876473013009753e-17,
+      "family_recovered": 115,
+      "conditions": 120
+    },
+    "nominal": {
+      "calibration_shots": 240000,
+      "shots": 384000,
+      "nominal_errors": 12150,
+      "independent_errors": 12152,
+      "selected_errors": 12149,
+      "independent_only": 4,
+      "selected_only": 1,
+      "paired_test_p": 0.375,
+      "family_recovered": 22,
+      "conditions": 24
+    },
+    "independent": {
+      "calibration_shots": 480000,
+      "shots": 768000,
+      "nominal_errors": 29939,
+      "independent_errors": 28987,
+      "selected_errors": 29043,
+      "independent_only": 35,
+      "selected_only": 91,
+      "paired_test_p": 6.356889300912937e-07,
+      "family_recovered": 46,
+      "conditions": 48
+    },
+    "joint": {
+      "calibration_shots": 480000,
+      "shots": 768000,
+      "nominal_errors": 46010,
+      "independent_errors": 45829,
+      "selected_errors": 45183,
+      "independent_only": 2737,
+      "selected_only": 2091,
+      "paired_test_p": 1.4518267144749188e-20,
+      "family_recovered": 47,
+      "conditions": 48
+    }
+  }
+}

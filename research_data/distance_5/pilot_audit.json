@@ -1,0 +1,92 @@
+{
+  "job": "01a20157-6bba-7289-a82e-65f205f0aedb",
+  "raw_sha256": "3366a8337ce978c13f61499bf8f63614eabc7e69a87e84e70cd60081a6424244",
+  "ideal_payload": {
+    "ideal_measurement_distribution_matches": true,
+    "measurement_keys": 97,
+    "independent_parities": 73,
+    "physical_wires": 49
+  },
+  "archive_decode": {
+    "failures": 361,
+    "shots": 1000,
+    "interval": [
+      0.3318160018268201,
+      0.3912478370321641
+    ]
+  },
+  "detectors": 72,
+  "independent_parity_check": true,
+  "raw_observable_flips": 444,
+  "mean_hardware_detector_firing": 0.2750972222222222,
+  "routed_redecode": {
+    "failures": 371,
+    "shots": 1000,
+    "interval": [
+      0.3416063263441117,
+      0.4013809773451614
+    ],
+    "prior": {
+      "cz_error": 0.003,
+      "rotation_error": 0.00075,
+      "readout_error": 0.003
+    },
+    "corrected": 139,
+    "newly_failed": 149,
+    "paired_exact_p": 0.5959600897271022
+  },
+  "cz_only_simulations": [
+    {
+      "failures": 11,
+      "shots": 20000,
+      "interval": [
+        0.00030714858193327515,
+        0.0009846762345096247
+      ],
+      "circuit": "direct",
+      "cz": 240,
+      "p_cz": 0.003,
+      "seed": 221126,
+      "mean_detector_firing": 0.020629166666666667
+    },
+    {
+      "failures": 139,
+      "shots": 20000,
+      "interval": [
+        0.005889547147273593,
+        0.008199819607651168
+      ],
+      "circuit": "routed",
+      "cz": 585,
+      "p_cz": 0.003,
+      "seed": 221126,
+      "mean_detector_firing": 0.05146736111111111
+    },
+    {
+      "failures": 221,
+      "shots": 20000,
+      "interval": [
+        0.00969221879215971,
+        0.012595573267104995
+      ],
+      "circuit": "direct",
+      "cz": 240,
+      "p_cz": 0.01,
+      "seed": 221126,
+      "mean_detector_firing": 0.06499375
+    },
+    {
+      "failures": 2129,
+      "shots": 20000,
+      "interval": [
+        0.10225101457042046,
+        0.11080013700933947
+      ],
+      "circuit": "routed",
+      "cz": 585,
+      "p_cz": 0.01,
+      "seed": 221126,
+      "mean_detector_firing": 0.14711666666666667
+    }
+  ]
+}

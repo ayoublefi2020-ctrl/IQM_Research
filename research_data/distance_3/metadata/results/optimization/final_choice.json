@@ -1,0 +1,63 @@
+{
+  "distance": 3,
+  "basis": "Z",
+  "p": 0.003,
+  "profile": "balanced",
+  "rounds": [
+    2,
+    3,
+    5,
+    8,
+    12,
+    16,
+    25,
+    50
+  ],
+  "noise_model": "native",
+  "schedule": "alternating",
+  "selected_decoder": "local_likelihood",
+  "selection_errors": 13823,
+  "selection_shots": 400000,
+  "scores": [
+    [
+      16616,
+      "forward",
+      "plain"
+    ],
+    [
+      16698,
+      "forward",
+      "correlated"
+    ],
+    [
+      15950,
+      "forward",
+      "likelihood"
+    ],
+    [
+      14727,
+      "forward",
+      "local_likelihood"
+    ],
+    [
+      15706,
+      "alternating",
+      "plain"
+    ],
+    [
+      14911,
+      "alternating",
+      "correlated"
+    ],
+    [
+      15038,
+      "alternating",
+      "likelihood"
+    ],
+    [
+      13823,
+      "alternating",
+      "local_likelihood"
+    ]
+  ]
+}

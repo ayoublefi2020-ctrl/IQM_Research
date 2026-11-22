@@ -1,0 +1,34 @@
+{
+  "measurements": 33,
+  "independent_parities": 25,
+  "ideal_distribution_matches": true,
+  "cz_or_measures_listed_after_a_later_layer": 54,
+  "native_operations": {
+    "prx": 94,
+    "cz": 72,
+    "measure": 33
+  },
+  "swaps": 0,
+  "layout": [
+    11,
+    10,
+    18,
+    25,
+    20,
+    19,
+    27,
+    26,
+    34,
+    33,
+    21,
+    29,
+    28,
+    36,
+    35,
+    43,
+    44
+  ],
+  "depth": 27,
+  "live": false,
+  "calibration_set": "00000000-0000-0000-0000-000000000000"
+}

@@ -22,20 +22,21 @@ SERVER_URL = "https://resonance.iqm.tech"
 DEFAULT_SELECTION = Path(__file__).resolve().parent / "results" / "optimization" / "final_choice.json"
 
 
-def connect(token=None, device="emerald", use_metrics=True):
+def connect(token=None, device="emerald", use_metrics=True, calibration_set_id=None):
     from iqm.qiskit_iqm import IQMProvider
     credential = token or os.environ.get("IQM_TOKEN")
     auth = {} if os.environ.get("IQM_TOKEN") and token is None else {"token": credential or getpass.getpass("IQM token: ")}
     provider = IQMProvider(SERVER_URL, quantum_computer=device, **auth)
+    calibration = {"calibration_set_id": calibration_set_id} if calibration_set_id else {}
     if use_metrics:
         try:
-            return provider.get_backend(use_metrics=True)
+            return provider.get_backend(use_metrics=True, **calibration)
         except Exception:
             # Some Resonance endpoints expose connectivity without quality metrics.
-            backend = provider.get_backend(use_metrics=False)
+            backend = provider.get_backend(use_metrics=False, **calibration)
             warnings.warn("Connected to IQM using connectivity and assumed noise rates because the metrics-enabled target was unavailable.")
             return backend
-    return provider.get_backend(use_metrics=False)
+    return provider.get_backend(use_metrics=False, **calibration)
 
 
 def memory(distance, rounds, basis, model, schedule, p, profile):

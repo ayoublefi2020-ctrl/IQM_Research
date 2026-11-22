@@ -1,0 +1,1760 @@
+{
+  "snapshot_commit": "59237e7da5cbcfc74065b66ec756d03dacc7d99a",
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "recovery_environment_packages": {
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "qiskit": "2.1.2",
+    "qrisp": "0.9.9",
+    "iqm-client": "35.0.3",
+    "qiskit-iqm": null,
+    "numpy": "2.4.6",
+    "scipy": "1.18.1"
+  },
+  "jobs": {
+    "01a200d4-e330-749d-8181-af771047036b": [
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json:3:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json:3:control:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json:3:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json:3:twirl:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r3-blocks.json"
+      }
+    ],
+    "01a200d5-8e76-7232-a854-753287f4cda6": [
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json:5:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json:5:control:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json:5:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json:5:twirl:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qiskit/r5-blocks.json"
+      }
+    ],
+    "01a200d7-1b0b-77fc-8076-d31e9d07f2fc": [
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json:3:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json:3:control:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json:3:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json:3:twirl:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r3-blocks.json"
+      }
+    ],
+    "01a200d7-8c5c-75b1-9560-3b1a0c3e476c": [
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json:5:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json:5:control:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json:5:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json:5:twirl:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 10000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/confirm_10000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/confirm_10000/qrisp/r5-blocks.json"
+      }
+    ],
+    "01a200d2-3fea-764c-a268-093fac4913fe": [
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json:3:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json:3:control:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json:3:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json:3:twirl:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r3-blocks.json"
+      }
+    ],
+    "01a200d2-8d3d-7207-aaf7-407b0109d770": [
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json:5:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json:5:control:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json:5:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json:5:twirl:None:characterized",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qiskit/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qiskit/r5-blocks.json"
+      }
+    ],
+    "01a200d4-14ce-7100-b160-59afe9606d68": [
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json:3:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json:3:control:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json:3:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json:3:twirl:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r3-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r3-blocks.json"
+      }
+    ],
+    "01a200d4-545d-75a2-b555-e5b6c169dd01": [
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json:5:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json:5:control:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json:5:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json:5:twirl:None:characterized",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 2000,
+        "decoder": "BP+OSD characterized",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/friend_models_20261122/pilot_2000/qrisp/r5-raw.npz",
+        "file": "results/friend_models_20261122/pilot_2000/qrisp/r5-blocks.json"
+      }
+    ],
+    "01a1ff93-bcb5-742e-9897-e5c02fb0186f": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r12.json:12:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 12,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r12.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r12.json"
+      }
+    ],
+    "01a1ff93-dfc7-705d-a451-110c15c76f92": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r16.json:16:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 16,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r16.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r16.json"
+      }
+    ],
+    "01a1ff92-fef3-71a7-a97b-934c8abfff4d": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r2.json:2:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r2.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r2.json"
+      }
+    ],
+    "01a1ff94-109b-717f-bfd2-f13c6670c927": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r25.json:25:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 25,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r25.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r25.json"
+      }
+    ],
+    "01a1ff93-2016-7169-aeef-bc190ee1dc7a": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r3.json:3:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r3.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r3.json"
+      }
+    ],
+    "01a1ff93-4247-70f3-8244-a38ba382cdac": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r5.json:5:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r5.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r5.json"
+      }
+    ],
+    "01a1ff94-536b-7207-9d78-261ad600c241": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r50.json:50:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 50,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r50.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r50.json"
+      }
+    ],
+    "01a1ff93-6fcc-714b-9f66-64c4559cd67f": [
+      {
+        "id": "results/hardware/20261121T192624300601Z/errors-r8.json:8:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 8,
+        "shots": 5000,
+        "decoder": "local_likelihood",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/hardware/20261121T192624300601Z/counts-r8.json",
+        "file": "results/hardware/20261121T192624300601Z/errors-r8.json"
+      }
+    ],
+    "01a1ffb6-b7c7-7681-936e-4fa17599a7da": [
+      {
+        "id": "results/project_comparison/20261121T200524815997Z/scores.json:3:None:ours",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/project_comparison/20261121T200524815997Z/ours-r3-counts.json",
+        "file": "results/project_comparison/20261121T200524815997Z/scores.json"
+      },
+      {
+        "id": "results/project_comparison/20261121T200524815997Z/scores.json:3:None:colleague",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/project_comparison/20261121T200524815997Z/colleague-r3-counts.json",
+        "file": "results/project_comparison/20261121T200524815997Z/scores.json"
+      },
+      {
+        "id": "results/project_comparison/20261121T200524815997Z/scores.json:5:None:colleague",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/project_comparison/20261121T200524815997Z/colleague-r5-counts.json",
+        "file": "results/project_comparison/20261121T200524815997Z/scores.json"
+      },
+      {
+        "id": "results/project_comparison/20261121T200524815997Z/scores.json:5:None:ours",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/project_comparison/20261121T200524815997Z/ours-r5-counts.json",
+        "file": "results/project_comparison/20261121T200524815997Z/scores.json"
+      }
+    ],
+    "01a1ffac-fe32-74c7-a8c9-36c41590f460": [
+      {
+        "id": "results/translation_check/20261121T195445883557Z/errors-r3.json:3:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": null,
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/translation_check/20261121T195445883557Z/counts-r3.json",
+        "file": "results/translation_check/20261121T195445883557Z/errors-r3.json"
+      }
+    ],
+    "01a1ffad-1d9f-7549-b91c-00f38ed74e48": [
+      {
+        "id": "results/translation_check/20261121T195445883557Z/errors-r5.json:5:None:None",
+        "pipeline": "Qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": null,
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/translation_check/20261121T195445883557Z/counts-r5.json",
+        "file": "results/translation_check/20261121T195445883557Z/errors-r5.json"
+      }
+    ],
+    "01a20062-2ff2-7450-8553-10278da60974": [
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r1-blocks.json:1:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r1-blocks.json:1:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r1-blocks.json"
+      }
+    ],
+    "01a20062-5f6c-7203-99bc-84b364db35d0": [
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r2-blocks.json:2:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r2-blocks.json:2:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r2-blocks.json"
+      }
+    ],
+    "01a20062-9b93-753a-84b1-baf4197876f8": [
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r3-blocks.json:3:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r3-blocks.json:3:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r3-blocks.json"
+      }
+    ],
+    "01a20062-eb46-72fe-9bdf-343c466ede3f": [
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r4-blocks.json:4:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r4-blocks.json:4:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r4-blocks.json"
+      }
+    ],
+    "01a20063-554c-7186-9c9b-f17b096629ce": [
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r5-blocks.json:5:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qiskit/r5-blocks.json:5:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122/qiskit/r5-blocks.json"
+      }
+    ],
+    "01a20062-4cc4-72bd-a2e0-2d2af0d7081d": [
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r1-blocks.json:1:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r1-blocks.json:1:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r1-blocks.json"
+      }
+    ],
+    "01a20062-839f-7236-8d68-01ef381e3237": [
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r2-blocks.json:2:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r2-blocks.json:2:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r2-blocks.json"
+      }
+    ],
+    "01a20062-c05d-7602-ad69-dbfb1e868107": [
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r3-blocks.json:3:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r3-blocks.json:3:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r3-blocks.json"
+      }
+    ],
+    "01a20063-0c28-72dd-99a8-68452ab31fc7": [
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r4-blocks.json:4:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r4-blocks.json:4:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r4-blocks.json"
+      }
+    ],
+    "01a20063-72bb-747b-aeb3-764f75b7cb60": [
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r5-blocks.json:5:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122/qrisp/r5-blocks.json:5:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122/qrisp/r5-blocks.json"
+      }
+    ],
+    "01a20099-8f96-71c4-a8ad-7a69dcc29976": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r1-blocks.json:1:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r1-blocks.json:1:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r1-blocks.json"
+      }
+    ],
+    "01a2009b-2602-7713-b252-d3ff430ccca1": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r2-blocks.json:2:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r2-blocks.json:2:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r2-blocks.json"
+      }
+    ],
+    "01a2009b-5c30-7367-ab8e-65a305dc8436": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r3-blocks.json:3:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r3-blocks.json:3:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r3-blocks.json"
+      }
+    ],
+    "01a2009b-a974-73e1-976d-631f2819eabc": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r4-blocks.json:4:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r4-blocks.json:4:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r4-blocks.json"
+      }
+    ],
+    "01a2009c-2482-739b-aefc-ad7c457b2e7c": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r5-blocks.json:5:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r5-blocks.json:5:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qiskit/r5-blocks.json"
+      }
+    ],
+    "01a2009d-0df4-70d3-9aa8-e40a45e079c0": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r1-blocks.json:1:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r1-blocks.json:1:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r1-blocks.json"
+      }
+    ],
+    "01a2009d-5110-7011-9e09-45a1312d2e5f": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r2-blocks.json:2:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r2-blocks.json:2:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r2-blocks.json"
+      }
+    ],
+    "01a2009d-9097-77e2-b4e9-1e520a07f8d1": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r3-blocks.json:3:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r3-blocks.json:3:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r3-blocks.json"
+      }
+    ],
+    "01a2009d-e6ca-71bc-a2d1-d1993661a3a0": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r4-blocks.json:4:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r4-blocks.json:4:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r4-blocks.json"
+      }
+    ],
+    "01a2009e-4fdb-7507-bd3e-ff6b290bdb6c": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r5-blocks.json:5:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r5-blocks.json:5:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_1/qrisp/r5-blocks.json"
+      }
+    ],
+    "01a2009a-0d59-76d5-8b99-9c68dfa8096f": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r1-blocks.json:1:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r1-blocks.json:1:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r1-blocks.json"
+      }
+    ],
+    "01a2009b-6c1c-7171-b0fb-b4e3511ad75e": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r2-blocks.json:2:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r2-blocks.json:2:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r2-blocks.json"
+      }
+    ],
+    "01a2009b-a88a-748e-8586-ab7e5c553b60": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r3-blocks.json:3:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r3-blocks.json:3:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r3-blocks.json"
+      }
+    ],
+    "01a2009b-ffeb-723a-9fe2-f0c8f0ebba70": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r4-blocks.json:4:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r4-blocks.json:4:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r4-blocks.json"
+      }
+    ],
+    "01a2009c-8762-72b5-82de-6536ef458a6e": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r5-blocks.json:5:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r5-blocks.json:5:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qiskit/r5-blocks.json"
+      }
+    ],
+    "01a2009d-6956-71ec-9fb6-d2b1a1342222": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r1-blocks.json:1:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r1-blocks.json:1:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r1-blocks.json"
+      }
+    ],
+    "01a2009d-9d9d-7287-91a8-b03bda1ece07": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r2-blocks.json:2:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r2-blocks.json:2:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r2-blocks.json"
+      }
+    ],
+    "01a2009d-de74-77a8-80c4-546bde9085df": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r3-blocks.json:3:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r3-blocks.json:3:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r3-blocks.json"
+      }
+    ],
+    "01a2009e-283e-76f6-8f99-a3425a271b00": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r4-blocks.json:4:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r4-blocks.json:4:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r4-blocks.json"
+      }
+    ],
+    "01a2009e-9dd6-71d1-a1de-2e519e71b49a": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r5-blocks.json:5:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r5-blocks.json:5:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_2/qrisp/r5-blocks.json"
+      }
+    ],
+    "01a2009a-506f-7531-a0ba-9122de999a75": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r1-blocks.json:1:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r1-blocks.json:1:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r1-blocks.json"
+      }
+    ],
+    "01a2009b-ac6e-7665-bceb-4d68e1f598a8": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r2-blocks.json:2:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r2-blocks.json:2:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r2-blocks.json"
+      }
+    ],
+    "01a2009c-03cd-70d0-b7be-83d92bb3f0e7": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r3-blocks.json:3:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r3-blocks.json:3:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r3-blocks.json"
+      }
+    ],
+    "01a2009c-7208-734f-b484-626c9f1cf614": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r4-blocks.json:4:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r4-blocks.json:4:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r4-blocks.json"
+      }
+    ],
+    "01a2009c-ef4c-7346-bf01-9538c8354acc": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r5-blocks.json:5:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r5-blocks.json:5:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qiskit/r5-blocks.json"
+      }
+    ],
+    "01a2009d-cffc-710c-a4b5-2180d6630475": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r1-blocks.json:1:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r1-blocks.json:1:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r1-blocks.json"
+      }
+    ],
+    "01a2009d-ffbf-701c-817d-5bc427aec02f": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r2-blocks.json:2:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r2-blocks.json:2:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r2-blocks.json"
+      }
+    ],
+    "01a2009e-3b86-7248-a312-0ef0995bd661": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r3-blocks.json:3:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r3-blocks.json:3:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r3-blocks.json"
+      }
+    ],
+    "01a2009e-98e2-7166-928d-880c784f051a": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r4-blocks.json:4:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r4-blocks.json:4:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r4-blocks.json"
+      }
+    ],
+    "01a2009e-ff6b-77ed-bbe1-c6448f03c0a7": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r5-blocks.json:5:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r5-blocks.json:5:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_3/qrisp/r5-blocks.json"
+      }
+    ],
+    "01a2009a-9104-7093-8276-26d345812165": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r1-blocks.json:1:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r1-blocks.json:1:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r1-blocks.json"
+      }
+    ],
+    "01a2009c-025b-74be-980e-6f20e8fa324a": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r2-blocks.json:2:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r2-blocks.json:2:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r2-blocks.json"
+      }
+    ],
+    "01a2009c-4820-729f-b541-3b1922ea4c1d": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r3-blocks.json:3:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r3-blocks.json:3:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r3-blocks.json"
+      }
+    ],
+    "01a2009c-966b-7081-8b6f-56804c60579d": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r4-blocks.json:4:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r4-blocks.json:4:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r4-blocks.json"
+      }
+    ],
+    "01a2009d-076f-7588-834f-2988f5310244": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r5-blocks.json:5:control:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r5-blocks.json:5:twirl:None",
+        "pipeline": "qiskit",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qiskit/r5-blocks.json"
+      }
+    ],
+    "01a2009d-f12c-7217-8f24-f47b1adf645b": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r1-blocks.json:1:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r1-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r1-blocks.json:1:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 1,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r1-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r1-blocks.json"
+      }
+    ],
+    "01a2009e-29c8-7669-a82b-fb387fc02213": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r2-blocks.json:2:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r2-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r2-blocks.json:2:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 2,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r2-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r2-blocks.json"
+      }
+    ],
+    "01a2009e-6b21-714d-8464-5fed9a2e31c6": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r3-blocks.json:3:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r3-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r3-blocks.json:3:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 3,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r3-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r3-blocks.json"
+      }
+    ],
+    "01a2009e-b6ed-77c2-a6a8-f47c8f7d34ef": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r4-blocks.json:4:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r4-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r4-blocks.json:4:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 4,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r4-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r4-blocks.json"
+      }
+    ],
+    "01a2009f-1b1b-76b2-8a5b-577f89503073": [
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r5-blocks.json:5:control:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r5-blocks.json"
+      },
+      {
+        "id": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r5-blocks.json:5:twirl:None",
+        "pipeline": "qrisp",
+        "basis": "Z",
+        "rounds": 5,
+        "shots": 4000,
+        "decoder": "BP+OSD",
+        "calibration": "ecec1d0a-1529-4c90-9b02-d1b30ddaa2e3",
+        "raw": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r5-raw.npz",
+        "file": "results/twirl_emerald_20261122_rerun/credential_4/qrisp/r5-blocks.json"
+      }
+    ]
+  }
+}

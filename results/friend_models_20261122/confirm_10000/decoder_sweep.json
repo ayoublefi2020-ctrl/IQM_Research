@@ -1,0 +1,34 @@
+{
+  "qiskit_r3_p010": {
+    "control": 601,
+    "twirl": 571
+  },
+  "qiskit_r3_characterized": {
+    "control": 569,
+    "twirl": 554
+  },
+  "qiskit_r5_p010": {
+    "control": 1007,
+    "twirl": 1032
+  },
+  "qiskit_r5_characterized": {
+    "control": 988,
+    "twirl": 1013
+  },
+  "qrisp_r3_p010": {
+    "control": 576,
+    "twirl": 535
+  },
+  "qrisp_r3_characterized": {
+    "control": 561,
+    "twirl": 508
+  },
+  "qrisp_r5_p010": {
+    "control": 999,
+    "twirl": 1034
+  },
+  "qrisp_r5_characterized": {
+    "control": 993,
+    "twirl": 995
+  }
+}
